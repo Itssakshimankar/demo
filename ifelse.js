@@ -40,19 +40,20 @@ console.log(leapyear(2018));
 
 
 // Implement a program that checks whether a given character is a vowel or consonant.
-function checkvc(c){
-    if(c==="a" ||  c==="e" || c==="i" || c==="o" || c=="u")
+function myFunction(str) {
+    if(str =='a' || str == 'e' || str =='i' || str == 'o' || str =='u')
     {
-         return "vowel";
+        console.log("this is voule")
     }
-    else{
-        return "consonant";
+    else {
+        console.log("this is not")
     }
+}
+myFunction('a')
+
     
 
 
-}
-console.log(checkvc(c));
 
 
 // Create a function that takes three numbers as input and returns the largest among them.
@@ -157,8 +158,6 @@ function checktraigle(A,B,D) {
     
 }
 console.log(checktraigle(90,90,90));
-
-
 
 
 
