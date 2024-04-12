@@ -21,9 +21,19 @@ let cube=findcube(5);
 console.log("the cube of 5 is",cube);
 
 // Take a 3 digit number and print the reverse of that number. Ex - 235 = 532
-const reverseNumber = (num) => (num.split(' ').reverse().join(''));
-let reversedNumber = reverseNumber("23 65");  //65 23
-console.log("The reverse of 235 is", reversedNumber); 
+function reverse(N) {
+  const str = N;
+  let reversed = '';
+  for (let i = str.length - 1; i >= 0; i--) 
+  {
+    reversed += str[i];
+  }
+  return reversed;
+}
+
+console.log(reverse('092'));
+
+
 
 
 // Take a number and return the sum of the first and last digit. Ex - 10 = 1+0 = 1, 452 = 4+2=7
